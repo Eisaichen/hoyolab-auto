@@ -2,8 +2,6 @@ name: Docker Image CI
 
 on:
   pull_request:
-    branches: [ Eisaichen:main ]
-    types: [ closed ]
 
 jobs:
   docker:
